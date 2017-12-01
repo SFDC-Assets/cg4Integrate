@@ -1,0 +1,12 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Advanced Motorsports Ducati Dallas",
+            "External_ID__c": "1"
+        }
+    ]
+}
