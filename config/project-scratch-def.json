@@ -1,6 +1,7 @@
 {
     "orgName": "DucatiDemo",
     "edition": "Developer",
+    "description" : "Ducati data integration booth",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
     }
