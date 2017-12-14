@@ -1,6 +1,7 @@
 {
     "orgName": "DucatiDemo",
     "edition": "Developer",
+    "adminEmail": "platformpmmdemos@gmail.com",
     "description" : "Ducati data integration booth",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
