@@ -1,4 +1,4 @@
-sfdx shane:org:create -f config/project-scratch-def.json -d 4 -s --json -u int -o camp.booth
+sfdx shane:org:create -f config/project-scratch-def.json -d 4 -s --json --userprefix int -o camp.booth
 sfdx force:source:push
 sfdx force:user:permset:assign -n Ducati_Dealer_Manager
 sfdx shane:user:password:set -g User -l User -p sfdx1234
