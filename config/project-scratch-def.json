@@ -5,7 +5,8 @@
     "description" : "Ducati data integration booth",
     "settings": {
         "orgPreferenceSettings": {
-            "s1DesktopEnabled": true
+            "s1DesktopEnabled": true,
+            "selfSetPasswordInApi": true
         }
     }
 }
