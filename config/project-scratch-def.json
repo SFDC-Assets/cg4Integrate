@@ -1,16 +1,16 @@
 {
-  "orgName": "DucatiDemo",
-  "edition": "Developer",
-  "adminEmail": "platformpmmdemos@gmail.com",
-  "description": "Ducati data integration booth",
-  "settings": {
-    "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
-    },
-    "securitySettings": {
-      "passwordPolicies": {
-        "enableSetPasswordInApi": true
-      }
+    "orgName": "DucatiDemo",
+    "edition": "Developer",
+    "adminEmail": "platformpmmdemos@mailinator.com",
+    "description": "Ducati data integration booth",
+    "settings": {
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "securitySettings": {
+            "passwordPolicies": {
+                "enableSetPasswordInApi": true
+            }
+        }
     }
-  }
 }
