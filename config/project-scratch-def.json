@@ -3,14 +3,10 @@
     "edition": "Developer",
     "adminEmail": "platformpmmdemos@mailinator.com",
     "description": "Ducati data integration booth",
+    "features": ["enableSetPasswordInApi"],
     "settings": {
         "lightningExperienceSettings": {
             "enableS1DesktopEnabled": true
-        },
-        "securitySettings": {
-            "passwordPolicies": {
-                "enableSetPasswordInApi": true
-            }
         }
     }
 }
