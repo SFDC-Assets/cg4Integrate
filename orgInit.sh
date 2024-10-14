@@ -1,6 +1,6 @@
-sfdx shane:org:create -f config/project-scratch-def.json -d 4 -s --json --userprefix int -o camp.booth
-sfdx force:source:push
-sfdx force:user:permset:assign -n Ducati_Dealer_Manager
-sfdx shane:user:password:set -g User -l User -p sfdx1234
-sfdx force:org:open -p /one/one.app#/setup/ExternalDataSource/home
-sfdx force:data:tree:import -f data/Account.json
+sf demoutil org create scratch -f config/project-scratch-def.json -d 5 -s -p int -e camp.booth
+sf project deploy start
+sf org assign permset -n Ducati_Dealer_Manager
+sf demoutil user password set -p salesforce1 -g User -l User
+sf org open -p /one/one.app#/setup/ExternalDataSource/home
+sf data import tree -f data/Account.json
